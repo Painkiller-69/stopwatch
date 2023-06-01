@@ -5,7 +5,7 @@ interface Lap {
   time: number;
 }
 
-const Stopwatch1206: React.FC = () => {
+const Stopwatch: React.FC = () => {
   const [isRunning, setIsRunning] = useState(false);
   const [laps, setLaps] = useState<Lap[]>([]);
   const [time, setTime] = useState(0);
@@ -52,4 +52,4 @@ const Stopwatch1206: React.FC = () => {
   );
 };
 
-export default Stopwatch1206;
+export default Stopwatch;
